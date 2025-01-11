@@ -22,17 +22,18 @@ To run this script, the following Python libraries are required:
 ## File Format
 
 The system health data is saved in a JSON file (systemMonitor.json). Each entry contains:
-	-	**timestamp**: The timestamp of when the monitoring data was collected.
-	-	**cpu_usage**: The percentage of CPU usage at the time of monitoring.
-	-	**disk_percent**: The percentage of disk space used at the time of monitoring.
-	-	**net**: The number of bytes sent over the network.
+
+-	**timestamp**: The timestamp of when the monitoring data was collected.
+-	**cpu_usage**: The percentage of CPU usage at the time of monitoring.
+-	**disk_percent**: The percentage of disk space used at the time of monitoring.
+-	**net**: The number of bytes sent over the network.
 
  ## Scheduling the Script
  
- **The script is scheduled to run automatically using Cron.**
+ The script is scheduled to run automatically using **Cron**.
 
  ## License
 
- **This project is licensed under the MIT License.**
+ This project is licensed under the **MIT License**.
 
  
